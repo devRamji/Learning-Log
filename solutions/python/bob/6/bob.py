@@ -1,0 +1,19 @@
+
+
+def response(hey_bob):
+    """
+    general behaviour of BOB the cool guy 
+    """
+    hey_bob_1 = hey_bob.strip() 
+    if not hey_bob_1:
+        return "Fine. Be that way!"
+    if hey_bob_1[-1] == "?" and hey_bob_1.isupper():
+        return  "Calm down, I know what I'm doing!"
+    if hey_bob_1.isupper():
+        return "Whoa, chill out!"
+    if hey_bob_1[-1] == "?":
+        return "Sure."
+    
+    return "Whatever." 
+      
+    
